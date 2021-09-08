@@ -8,7 +8,9 @@ The Next.js frontend can be found [here](https://github.com/KristijanStosic/dj-e
 
 ### Using Cloudinary
 
-Create a .env file and add your Cloudinary info for images
+Create a .env file and add your Cloudinary and MongoDB info.
+After creating project on MongoDB Atlas, fill in the values in .env file.
+After that run npm install.
 
 ```
 CLOUDINARY_NAME = "xxxx"
@@ -23,8 +25,6 @@ DATABASE_USERNAME = 'xxxx'
 DATABASE_PASSWORD = 'xxxx'
 ```
 
-Database used is MongoDB so you have to create project on MongoDB Atlas.
-Replace in config/database.js values with the one you put in .env
 
 
 ### Run the Server
